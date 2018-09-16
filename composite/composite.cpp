@@ -85,7 +85,7 @@ void Composite::remove(Component* component)
 
 Component* Composite::getChild(int index)
 {
-    if (index < 0 || index > this->_components.size())
+    if (index < 0 || index >= this->_components.size())
     {
         return nullptr;
     }
