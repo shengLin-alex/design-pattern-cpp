@@ -2,7 +2,7 @@
 #define VISITOR_H
 
 #include <iostream>
-#include <cstring>
+#include <string>
 #include <list>
 
 // pre-defination

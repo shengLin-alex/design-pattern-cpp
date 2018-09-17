@@ -2,7 +2,7 @@
 #define COMPOSITE_H
 
 #include <vector>
-#include <cstring>
+#include <string>
 #include <iostream>
 
 /**
