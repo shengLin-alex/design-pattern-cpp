@@ -6,7 +6,14 @@ int main(int argc, char** argv)
     char choice;
 
     std::cin >> choice;
-    manager->BuildFoodSet(choice)->show();
+    try
+    {
+        manager->BuildFoodSet(choice)->show();
+    }
+    catch (const std::exception* exception)
+    {
+        std::cout << exception->what() << std::endl;
+    }
 
     delete manager;
     

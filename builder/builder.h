@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <stdexcept>
 
 // define a product class, set some property to product.
 class FoodSet

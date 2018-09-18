@@ -109,6 +109,10 @@ FoodSet* FoodSetManager::BuildFoodSet(char choice)
     {
         this->_builder = new JapaneseSetBuilder();
     }
+    else
+    {
+        throw new std::invalid_argument("choice not support now");
+    }
 
     // build food set
     this->_builder->BuildCoolDish();
