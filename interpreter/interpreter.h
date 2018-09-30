@@ -1,7 +1,7 @@
 #ifndef INTERPRETER_H
 #define INTERPRETER_H
 
-#include <string>
+#include <cstring>
 
 // define a class and save expression for interpreting
 class Context

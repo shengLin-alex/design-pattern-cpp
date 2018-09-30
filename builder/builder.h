@@ -2,7 +2,7 @@
 #define BUILDER_H
 
 #include <vector>
-#include <string>
+#include <cstring>
 #include <iostream>
 #include <stdexcept>
 

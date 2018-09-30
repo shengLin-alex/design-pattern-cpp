@@ -1,7 +1,7 @@
 #ifndef PROXY_H
 #define PROXY_H
 
-#include <string>
+#include <cstring>
 #include <iostream>
 
 // A interface for Image

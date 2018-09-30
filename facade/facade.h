@@ -2,7 +2,7 @@
 #define FACADE_H
 
 #include <iostream>
-#include <string>
+#include <cstring>
 
 // define some computer unit
 class Cpu
